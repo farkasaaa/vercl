@@ -4,5 +4,13 @@
       "source": "/(.*)",
       "destination": "https://fortissimo.andrisfarkas77.workers.dev/$1"
     }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Host", "value": "fortissimo.fandras.eu" }
+      ]
+    }
   ]
 }
