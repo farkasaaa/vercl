@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "https://fortissimo.andrisfarkas77.workers.dev/$1"
+    }
+  ]
+}
