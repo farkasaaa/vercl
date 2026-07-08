@@ -9,7 +9,12 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "Host", "value": "fortissimo.fandras.eu" }
+        { "key": "Host", "value": "fortissimo.fandras.eu" },
+        { "key": "X-Forwarded-Host", "value": "app.fortissimosportalapitvany.hu" },
+        { "key": "X-Forwarded-Proto", "value": "https" },
+        { "key": "X-Real-IP", "value": "remote_addr" },
+        { "key": "Access-Control-Allow-Origin", "value": "https://app.fortissimosportalapitvany.hu" },
+        { "key": "Access-Control-Allow-Credentials", "value": "true" }
       ]
     }
   ]
