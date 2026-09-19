@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https://fortissimo.fandras.eu$1"
+      "destination": "https://68fa3710.fortisport.pages.dev$1"
     }
   ],
   "headers": [
