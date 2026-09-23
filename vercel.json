@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https://2b32b4a9.fortisport.pages.dev/$1"
+      "destination": "https://359b8dd9.fortisport.pages.dev/$1"
     }
   ],
   "headers": [
